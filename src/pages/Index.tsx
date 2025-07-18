@@ -61,7 +61,15 @@ const Index = () => {
       tech: ["React","Framer","Tailwind",'shadcn-ui'],
       link: "https://royal-taste.netlify.app/"
     
-    }
+    },
+    {
+      
+      title: "Aquaflows",
+      description: "pluming website",
+      tech: ["React","Tailwind"],
+      link: "https://aquaflows.netlify.app/"
+    
+    },
   ];
 
   const containerVariants = {
