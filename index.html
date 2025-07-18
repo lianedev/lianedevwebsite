@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lianedev</title>
+    <meta name="description" content="Creative Full Stack Developer Portfolio" />
+    <title >LianeDev</title>
+    <link rel="icon" type='webp' sizes="" href="/logo.webp" />
+
+    <meta property="og:title" content="lianedev- frontend Developer" />
+    <meta property="og:description" content="Creative Full Stack Developer Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+  #author-name {
+    font-family: 'Arial', sans-serif;  /* Change to desired font */
+    font-weight: bold;  /* Bold the text */
+    font-size: 20px;  /* Adjust the font size */
+  }
+</style>
+  </head>
+
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+
+  <script>
+  // Get the content from the meta tag
+  const authorMetaTag = document.querySelector('meta[name="author"]');
+  const authorName = authorMetaTag ? authorMetaTag.content : 'Unknown Author';
+
+  // Set the content into the <p> tag
+  const authorElement = document.getElementById('author-name');
+  authorElement.textContent = authorName;
+</script>
+</html>
