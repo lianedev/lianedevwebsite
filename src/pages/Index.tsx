@@ -70,6 +70,13 @@ const Index = () => {
       link: "https://aquaflows.netlify.app/"
     
     },
+    {
+      title: "Helmingskies Voyagehub",
+      description: "Abroad work agency in Kenya",
+      tech: ["Vite", "TypeScript", "React", "shadcn-ui", "TailwindCSS"],
+      link: "https://helmingskies.netlify.app/"
+    }
+
   ];
 
   const containerVariants = {
