@@ -75,7 +75,40 @@ const Index = () => {
       description: "Abroad work agency in Kenya",
       tech: ["Vite", "TypeScript", "React", "shadcn-ui", "TailwindCSS"],
       link: "https://helmingskies.netlify.app/"
-    }
+    },
+
+    {
+      title: "rakshak painting",
+      description: "Painters website",
+      tech: ["Html","Css","JavaScript" ],
+      link: "https://rakshakpainting.netlify.app/"
+    },
+    {
+      title: "badgan landscaping",
+      description: "landscaping website",
+      tech: ["Html","Css","JavaScript" ],
+      link: "https://badganlandscaping.netlify.app/"
+    },
+    {
+      title: "promotors",
+      description: "Mechanic website",
+      tech: ["Html","Css","Bootstrap","JavaScript" ],
+      link: "https://promotorsmech.netlify.app"
+    },
+    {
+      title: "fixnow plumbing",
+      description: "plumbing website",
+      tech: ["Html","Css","Bootstrap","JavaScript" ],
+      link: "https://fixnowplumbing.netlify.app/"
+    },
+    {
+      title: "boisefamily",
+      description: "plumbing website",
+      tech: ["Vite", "TypeScript", "React", "framer-motion", "TailwindCSS"],
+      link: "https://boisefamily.vercel.app/"
+    },
+
+
 
   ];
 
