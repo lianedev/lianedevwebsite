@@ -107,6 +107,37 @@ const Index = () => {
       tech: ["Vite", "TypeScript", "React", "framer-motion", "TailwindCSS"],
       link: "https://boisefamily.vercel.app/"
     },
+    {
+      title: "Claritycrest",
+      description: "Accounting firm website",
+      tech: ["Html","tailwind","Bootstrap","JavaScript","Gsap" ],
+      link: "https://claritycrest.netlify.app/"
+    },
+    {
+      title: "Maisonstore",
+      description: "premium perfume store",
+      tech: ["React","tailwind","TypeScript","framer-motion" ],
+      link: "https://maisonstore.netlify.app/"
+    },
+    {
+      title: "Greenhive lawncare",
+      description: "Lawn care website",
+      tech: ["Html","tailwind","Bootstrap","framer-motion" ],
+      link: "https://greenhivelwancare.vercel.app/"
+    },
+    {
+      title: "Kins Catering",
+      description: "Catering website",
+      tech: ["Html","tailwind","Bootstrap", ],
+      link: "https://kins-catering.vercel.app/"
+    },
+    {
+      title: "Crafted pixels",
+      description: "Web design and development agency",
+      tech: ["Html","tailwind","Bootstrap", ],
+      link: "https://craftedpixels-kohl.vercel.app/"
+    },
+
 
 
 
